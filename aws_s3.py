@@ -3,9 +3,9 @@ from boto3.session import Session
 
 
 class Aws_S3:
-    __Access_key_ID = 'AKIA56GQGXGN655USWIB'
+    __Access_key_ID = '*****************'
 
-    __Secret_access_key = 'hjP9MQZ3QLXRARybarWwivPCvrSdLw/WUa3l8e+1'
+    __Secret_access_key = '****************************'
 
     def upload_file(self,filename = '/home/pi/Documents/Projects/code/input.csv'):
 	    _session = boto3.Session(aws_access_key_id= self.__Access_key_ID ,
